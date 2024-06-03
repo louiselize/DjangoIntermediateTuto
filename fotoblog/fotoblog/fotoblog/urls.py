@@ -35,4 +35,5 @@ urlpatterns = [
          name='password_change_done',
         ),    
     path('home/', blog.views.home, name='home'),
+    path('signup/', authentication.views.signup_page, name='signup'),
 ]
